@@ -1,0 +1,207 @@
+main {
+  margin-top: 10px;
+}
+
+html, body {
+  position: relative;
+  margin: 0 0 0 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.Map{
+position: absolute;
+margin-left: 10%;
+height:50vh;
+width:80%
+}
+main h2 {
+  margin: 18px 0 12px 0;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(90, 67, 36);
+  color:white;
+  background: linear-gradient(rgb(44, 44, 44)0, rgb(0, 0, 0));
+  border-radius: 20px;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+  text-align: center;
+  color:white;
+  background: linear-gradient(rgb(44, 44, 44)0, rgb(0, 0, 0));
+  border-radius: 20px;
+}
+
+main h4 {
+  margin: 18px 0 12px 0;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  background: linear-gradient(rgb(44, 44, 44)0, rgb(0, 0, 0));
+  border-radius: 20px;
+}
+
+main p {
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 0;
+  font-size: 14px;
+  border:solid 2px black;
+  border-radius: 20px;
+  background-color:rgb(255, 229, 81);
+  box-shadow: black 2px 2px 8px 2px;
+}
+
+article {
+  display: block;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-position: inside;
+  border-radius: 10px;
+}
+
+#bg-callout {
+  border: solid 2px black;
+  border-radius: 20px;
+  margin-bottom: -70px;
+  color: black;
+  font-size: 14px;
+  background-color:rgb(255, 229, 81);
+  box-shadow: black 2px 2px 8px 2px;
+}
+
+main article section h3 {
+  text-align: center;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+main article section ul {
+  display: inline-block;
+}
+
+main article section ul li {
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+  /* margin-left: -50px; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+button {
+  margin-top: 10px;
+  /* margin-left: 220px; */
+  /* width: 50px; */
+}
+
+textarea {
+  width: 80%;
+  height: 160px;
+  margin-top: 10px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item2 img {
+  border-radius: 10%;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+input{
+  width: 50%;
+  padding: 8px 8px 8px 8px;
+}
+@media all and (min-width: 700px) {
+  section, h1 {
+    padding: 0 10%;
+  }
+  textarea {
+    width: 50%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .Map{
+    position: absolute;
+    margin-left: 30%;
+    height:50vh;
+    width:40%
+    }
+  main p {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 0;
+    font-size: 20px;
+    border:solid 2px black;
+    border-radius: 20px;
+    background-color:rgb(255, 229, 81);
+    box-shadow: black 2px 2px 8px 2px;
+  }
+  #bg-callout {
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-bottom: -70px;
+    color: black;
+    font-size: 20px;
+    background-color:rgb(255, 229, 81);
+    box-shadow: black 2px 2px 8px 2px;
+  }
+  label {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Permanent Marker', cursive;
+  }
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item2 img {
+    border-radius: 10%;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+  
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
