@@ -26,7 +26,7 @@ function ContactArticle(props) {
                 </div>
                 <div className="item item2">
                     <div className = "contactInfo">
-                    <p><a href="mailto:you@gmail.com" target="_blank" rel="noopener noreferrer">Email Me</a></p>
+                    <p><a href="mailto:jakelj24@gmail.com" target="_blank" rel="noopener noreferrer">Email Me</a></p>
                     <p><a href="https://github.com/JakelTheDeveloper" target="_blank" rel="noopener noreferrer">GitHub</a></p>
                     <p><a href="https://www.linkedin.com/in/jakel-jenkins-a91b11a0/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
                     </div>
