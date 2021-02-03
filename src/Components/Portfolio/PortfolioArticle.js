@@ -8,15 +8,15 @@ import PortfolioItem from './PortfolioItem'
 function PortfolioArticle(props) {
     let project1Deets = [
         "Gamble Fighterz is a Slots and RPG inspired project.",
-        " User will start with 100 credits and can bet up to a maximum of 3 credits per bet.",
-        " After betting, press the spin button and test your luck. User will progress through",
-        " levels when they reach the required score for that level. Game is over when credits",
+        " Users will start with 100 credits and can bet up to a maximum of 3 credits per bet.",
+        " After betting, press the spin button and test your luck. Users will progress through",
+        " levels when they reach the required score for that level. The game is over when credits",
         " reach 0. Choose to play again and or submit your score! I created this app to challenge",
         " my current React knowledge to make my first web and mobile responsive game!"
     ]
     let project2Deets = [
-        "Ghostwriterz is an app designed to help music artist",
-        " with writer's block. As music artist, it is sometimes",
+        "Ghostwriterz is an app designed to help music artists",
+        " with writer's block. As a music artist, it is sometimes",
         " frustrating trying to come up with a good song idea.",
         " Users can sign up, create, and share lyrics",
         " with each other to use in a song, or just for song ideas.",
